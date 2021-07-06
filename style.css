@@ -1,0 +1,276 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    margin: 0;
+}
+.flexible_container{
+    display: flex;
+    
+}
+.container{
+    padding-top: 30px;
+    height: 500px;
+    padding-bottom: 130px;
+}
+h1{
+    font-size: 56px;
+    font-weight: bold;
+}
+h2{
+    font-size: 40px;
+}
+
+.section_half{
+    width: 50%;
+    padding-left: 5%;
+}
+
+
+/* Section Hero Area  */
+.title_color{
+    color: blue;
+}
+.link_button{
+    text-decoration: none;
+    background: linear-gradient(45deg, blue, cyan);
+    padding: 10px 40px;
+    border-radius: 20px;
+    font-weight: 700;
+    color: white;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.hero_area img{
+    height: 100%;
+    
+}
+.hero_area{
+    background-color: white;
+}
+
+/* Hero Area End */
+
+/* Section About me  */
+
+.about_me img{
+    height: 100%;
+    padding-left: 120px;
+    padding-top: 70px;
+    
+}
+.about_me{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+}
+#about_me_text{
+    padding-right: 120px;
+    padding-top: 70px;
+}
+.link_button_two{
+    text-decoration: none;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 40px;
+    border-radius: 20px;
+    font-weight: 700;
+    color: white;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+/* About Me End  */
+
+/* Section My Recipies */
+
+.my_recipies .top-section {
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+.card-section{
+    display: flex;
+    justify-content: center;
+}
+.my_recipies .card-section .card {
+    width: 25%;
+    box-shadow: 0px 0px 16px -2px #abccab;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 30px;
+    margin-top: 50px;
+  }
+.my_recipies .card-section .card img {
+      height: 100%;
+    width: 100%;
+}
+
+  /* My Recipies End */
+
+  /* Section Special */
+
+.special_container{
+      display: flex;
+      justify-content: center;
+  }
+.special .image img {
+    height: 100%;
+    width: 100%;  
+}
+
+.special {
+    background-image: url(images/shapes/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    margin-top: 70px;
+
+}
+
+#special_left{
+    padding-left: 120px;
+    padding-top: 70px;
+}
+#special_right{
+    padding-right: 120px;
+    padding-top: 70px;
+}
+
+#special_link{
+    color: rgb(55, 55, 55);
+    padding: 10px 20px;
+    font-weight: 500;
+    right: 0px;
+    bottom: 0px;
+    width: 20%;
+    box-shadow: 0px 0px 16px -2px #abccab;
+    display: table-cell;
+    border-left: 10px solid #9c20aa;
+    font-weight: 800;
+    font-size: 25px;
+    margin-top: 30px;
+}
+#offer{
+    font-size: 25px;
+    color: tomato;
+    font-family: 500;
+}
+
+/* Special End */
+
+/* Section Features */
+
+.features {
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.feature_top{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+.feature_top h1{
+    font-size: 50px;
+    color: tomato;
+    margin: 0;
+}
+.features_item{
+    box-shadow: 0px 0px 16px -2px #abccab;
+    margin: 20px;
+    padding: 20px;
+    margin-top: 50px;
+}
+#item_one{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+#item_two{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+#item_three{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, #9c20aa, #fb3570);
+    border-image-slice: 1;
+}
+
+#features_button_one{
+    text-decoration: none;
+    background: linear-gradient(45deg, blue, cyan);
+    
+    padding: 10px 40px;
+    font-weight: 700;
+    color: white;
+    display: inline-block;
+    margin-top: 30px;
+}
+#features_button_two{
+    text-decoration: none;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    
+    padding: 10px 40px;
+    font-weight: 700;
+    color: white;
+    display: inline-block;
+    margin-top: 30px;
+}
+#features_button_three{
+    text-decoration: none;
+    background: linear-gradient(45deg, #9c20aa, #fb3570);
+    
+    padding: 10px 40px;
+    font-weight: 700;
+    color: white;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+/* Features End */
+
+/* Social Contributor */
+
+.social_contributor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0px 0px 16px -2px #abccab;
+    border-radius: 10px;
+    height: 10%;
+    width: 80%;
+    margin: 150px auto;
+    text-align: center;
+}
+
+.contributor {
+    width: 30%;     
+}
+.contributor h1 {
+    color: rgb(36, 36, 36);
+    font-size: 35px;
+    margin-bottom: 0px !important;
+}
+
+/* Social Contributor End */
+
+/* Section Footer */
+
+.footer {
+    background: linear-gradient(45deg, #9c20aa, #fb3570);
+    color: white;
+    text-align: center;
+    padding: 10px;   
+}
+#creator {
+        text-align: center;
+        color:white;
+}
+
+/* Footer End */
