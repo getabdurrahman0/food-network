@@ -1,7 +1,7 @@
 # **Food Network**
 
 
-<a  href="https://getabdurrahman0.github.io/food_network/">
+<a  href="https://getabdurrahman0.github.io/food-network/">
 <img  width="100%"  height="100%"  src="https://images2.imgbox.com/65/7d/gbbW2UGX_o.png"/>
 </a>
 
@@ -13,4 +13,4 @@
 - **HTML**
 - **CSS3**
 
-### `Website Link :` [https://getabdurrahman0.github.io/food_network/](https://getabdurrahman0.github.io/food_network/)
+### `Website Link :` [https://getabdurrahman0.github.io/food-network/](https://getabdurrahman0.github.io/food-network/)
